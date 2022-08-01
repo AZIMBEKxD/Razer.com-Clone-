@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 3.75rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    /* margin-top: -3.75rem; */
+}
+.navbar ul img{
+    width: 35px;
+    height: 35.16px;
+    margin-top: 30px;
+    /* margin-left: 55px; */
+    position: absolute;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 35px;
+    list-style: none;
+    font-size: 16px;
+}
+.navbar ul li a{
+    color: #888;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: white;
+    cursor: pointer;
+}
+.navline{
+    width: 100%;
+    height: 44px;
+    /* border: 1px solid red; */
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;  
+    z-index: 1;
+    margin-top: 181px
+}
+.navline p{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    /* padding-bottom: 5px; */
+}
+.menu{
+    width: 100%;
+    height: 121px;
+    border-bottom: 1px solid #44d62c;
+    background-color: #1a1a1a;
+    margin-top: 3.75rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu div{
+    width: 60px;
+    margin: 0 17.5px;
+    height: 80px;
+    /* border: 1px solid red; */
+    text-align: center;
+    position: relative;
+    margin-top: 18px;
+}
+.menu div a{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+.menu div:hover span{
+    color: #44d62c;
+}
+.xbox, .playstation, .accsess{
+    position: absolute;
+    top: 40px;
+}
+.w2 a img{
+    position: absolute;
+    top: -5px;
+}
+.xbox{
+    left: 17px;
+}
+#new-xbox{
+    margin-top: 60px;
+    position: absolute;
+    left: 18px;
+    color: #F5B21D;
+}
+.playstation{
+    left: -5px;
+}
+.accsess{
+    left: 0;
+}
+.correct{
+    height: 225px;
+    /* background-color: red; */
+    width: 100%;
+}
+
+#active{
+    color: white;
+}
+.text{
+    width: 100%;
+    height: 201px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    background-color: #111;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    /* margin-top: 159px; */
+}
+.text h1{
+    font-size: 36px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #44d62c;
+    padding-bottom: 5px;
+    letter-spacing: -2px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.text p{
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: #999;
+    line-height: 30px;
+}
+.col-1{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    background: url("https://assets2.razerzone.com/images/pnx.assets/cf0db6796b9f43a8069e19a6ebc739cb/stormtrooper-1920x700-desktop.jpg");
+    background-position: top;
+    text-align: center;
+    color: white;
+    padding-top: 65px;
+    border-bottom: #44d62c 1px solid;
+}
+.col-1 h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+.col-1 p{
+    font-size: 18px;
+    padding: 6px 0 20px 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: #999;
+
+}
+.col-1 a, .col-1 span{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #44d62c;
+    text-decoration: none;
+}
+.col-1 a:hover{
+    text-decoration: underline;
+}
+
+.ph-2{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/0e064526124df6127811074622ca706f/sonic-the-hedgehog-xbox-controller-and-charging-stand-1920x700-desktop.jpg");
+    background-size: cover;
+    background-position: top;
+}
+.ph-3{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/d7a96437d64b36cc0a7f2664657952b2/captain-america-xbox-controller-and-charging-stand-desktop-1920x700.jpg");
+    background-size: cover;
+    background-position: top;
+    /* border: none; */
+}
+
+
+.content{
+    width: 100%;
+    height: 603px;
+    background-color: #252525;
+    /* position: absolute; */
+    /* margin-top: 389px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-items{
+    display: flex;
+
+}
+.box{
+    width: 388.08px;
+    height: 553px;
+    /* border: 1px solid red; */
+    background-color: #111;
+    margin: 0 14px;
+    border-bottom: 1px solid #44d62c;
+    position: relative;
+}
+.box img{
+    width: 388.08px;
+    height: 388.08px;
+}
+.box div{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5px 10px 0 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.box p{
+    color: #888;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px 10px 25px 10px;
+    font-size: 14px;
+    font-weight: 300px;
+}
+.box1 div{
+    text-transform: uppercase;
+}
+.box a{
+    text-decoration: none;
+    color: #44d62c;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    /* margin-top: 20px; */
+    position: absolute;
+    bottom: 5px;
+}
+.laptop{
+    width: 100%;
+    height: 400px;
+    background: url("https://assets2.razerzone.com/images/pnx.assets/45156e9ddf2906240fe022309aba70c5/back-to-school-july22-1920x400.jpg");
+    background-position: center, bottom;
+}
+.laptop div{
+    float: right;
+    margin-top: 150px;
+    margin-right: 170px;
+}
+.laptop h2{
+    color: white;
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    padding-bottom: 16px;
+    letter-spacing: -1px;
+}
+.laptop p{
+    color: #999;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.laptop a{
+    text-decoration: none;
+    color: #44d62c;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+}
+
+.ph-4{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/cd8c66be4b03c7637164d056fd453195/gamesetmatch-category-1920x700-desktop.jpg");
+    height: 700px;
+    background-position: top;
+}
+.ph-5{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/0d79efdea8e15962374c6a38f94b47f5/razer-kaira-pro-category-desktop.jpg");
+    height: 700px;
+    background-position: top;
+}
+.ph-6{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/d97d6645a23af786a27123af21877690/razer-wolverine-v2-chroma-category-1920x700-desktop.jpg");
+    height: 700px;
+    background-position: top;
+}
+
+.ph-7{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/1f2c6dbd38e9414c6ed618b0ac283295/connect-compete-conquer-category-1920x700-desktop.jpg");
+    height: 700px;
+    background-position: top;
+}
+body{
+    background-color: #252525;
+    
+}
+.mega-bottom{
+    width: 100%;
+    height: 510.97px;
+    margin: 25px 0;
+    background-color: #252525;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxm{
+    width: 282px;
+    height: 460.97px;
+    /* border: 1px solid red; */
+    margin: 0 6px;
+    position: relative;
+    background-color: #111;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    border-bottom: 1px solid #44d62c;
+}
+.boxm img{
+    width: 282px;
+    height: 282px;
+    background-color: black;
+}
+.boxm div{
+    width: 282px;
+    height: 177px;
+    /* border: 1px solid green; */
+    position: absolute;
+}
+.boxm h2{
+    font-size: 18px;
+    padding: 10px 10px 0;
+}
+.boxm p{
+    color: #999;
+    font-size: 14px;
+    padding: 10px 10px 0;
+}
+.boxm a{
+    color: #44d62c;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: 14px;
+}
+.mega-top{
+    text-align: center;
+    margin: 64px 0 40px;
+}
+.mega-top h2{
+    font-size: 36px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    margin: 0 0 8px;
+    padding: 0 0 5px;
+}
+.mega-top p{
+    color: #888;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.headphone{
+    width: 100%;
+    height: 400px;
+    background: url("./img/Screen\ Shot\ 2022-07-31\ at\ 11.20.34\ PM.png");
+    background-size: cover;
+    /* background-position: center; */
+}
+.h-text{
+    float: right;
+    width: 550px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 70px 100px;
+}
+.h-text h2{
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 15px 0;
+}
+.h-text p{
+    color: #888;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.h-text a{
+    text-decoration: none;
+    color: #44d62c;
+}
+
+#h-text{
+    float: left;
+    width: 550px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 70px 100px;
+}
+.n2{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/8b828caeca30f807d38978df53d701c9/console-gamepads-engineered-category-desktop.jpg");
+    background-position: center bottom;
+}
+                                                    /* Footer start */
+.Footer{
+    width: 100%;
+    height: 350px;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part{
+    display: inline-block;
+    width: 238.8px;
+    /* border: 1px solid red; */
+    height: 270px;
+    padding: 0 12px;
+}
+.right{
+    text-align: end;
+}
+.part div h5 span{
+    /* border: 1px solid red; */
+    font-size: 14.4px;
+}
+.part div h5{
+    color: #44d62c;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: -1px;
+}
+.row ul li{
+    padding-bottom: 15px;
+    list-style: none;
+}
+.row ul label{
+    color: white;
+}
+.row ul li a{
+    text-decoration: none;
+    color: #999;
+}
+.part div ul li:first-child{
+    margin-top: 20px;
+}
+.part div:first-child{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid orangered; */
+}
+.part ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.link{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* border: 1px solid #44d62c; */
+    display: inline-block;
+    margin-top: 10px;
+}
+.facebook{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0001-facebook.svg");
+    background-size: cover;
+    background-position: center;
+}
+.instagram{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0003-instagram.svg");
+    background-size: cover;
+    background-position: center;
+}
+.twitter{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0005-twitter.svg");
+    background-size: cover;
+    background-position: center;
+}
+.bb{
+    width: 98%;
+    border-top: 1px solid #555;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+.bbl{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.bbr{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.copy-in span{
+    color: #999;
+}
+.copy{
+    width: 287.84px;
+    display: flex;
+    justify-content: start;
+}
+.bbl ul{
+    display: flex;
+}
+.bbl ul li{
+    padding: 0 7.5px;
+    list-style: none;
+    color: #999;
+}
+.bbl ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.bbl ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.bbr{
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+.bbrr{
+    display: flex;
+}
+.bbrr div, .bbrr span, .bbrr a{
+    padding: 0 7.5px;
+}
+.bbrr a{
+    text-decoration: none;
+    color: #999;
+}
+.bbrr a:hover{
+    text-decoration: underline;
+    color: white;
+}

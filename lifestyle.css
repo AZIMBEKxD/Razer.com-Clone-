@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 3.75rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    /* margin-top: -3.75rem; */
+}
+.navbar ul img{
+    width: 35px;
+    height: 35.16px;
+    margin-top: 30px;
+    /* margin-left: 55px; */
+    position: absolute;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 35px;
+    list-style: none;
+    font-size: 16px;
+}
+.navbar ul li a{
+    color: #888;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: white;
+    cursor: pointer;
+}
+.navline{
+    width: 100%;
+    height: 44px;
+    /* border: 1px solid red; */
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;  
+    z-index: 1;
+    margin-top: 181px
+}
+.navline p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    /* padding-bottom: 5px; */
+    /* font-weight: 900; */
+}
+.navline a{
+    text-decoration: none;
+    color: white;
+}
+.navline a:hover{
+    text-decoration: underline;
+}
+.menu{
+    width: 100%;
+    height: 121px;
+    border-bottom: 1px solid #44d62c;
+    background-color: #1a1a1a;
+    margin-top: 3.75rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.menu div{
+    width: 80px;
+    margin: 0 0px;
+    height: 80px;
+    /* border: 1px solid red; */
+    text-align: center;
+    position: relative;
+    margin-top: 18px;
+}
+.menu span{
+    color: #F5B21D;
+}
+.menu div a{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+.menu div:hover a{
+    color: #44d62c;
+}
+.correct{
+    height: 225px;
+    /* background-color: red; */
+    width: 100%;
+}
+
+#active{
+    color: white;
+}
+.text{
+    width: 100%;
+    height: 145px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    background-color: #111;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    /* margin-top: 159px; */
+}
+.text h1{
+    font-size: 36px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #44d62c;
+    padding-bottom: 5px;
+    letter-spacing: -2px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.text p{
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: #999;
+    line-height: 30px;
+}
+.col-1{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    background: url("https://assets2.razerzone.com/images/pnx.assets/0666dc773bd5460ed41bf6e1a1ebad3a/lifestyle-chairs-category-banner.jpg");
+    background-position: top;
+    text-align: center;
+    color: white;
+    padding-top: 65px;
+    /* border-bottom: #44d62c 1px solid; */
+}
+.col-1 h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 20px 0;
+    margin-top: -40px;
+}
+.col-1 p{
+    font-size: 18px;
+    padding: 6px 0 20px 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: #999;
+
+}
+.col-1 a, .col-1 span{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #44d62c;
+    text-decoration: none;
+}
+.col-1 a:hover{
+    text-decoration: underline;
+}
+.ph-1 h2{
+    padding: 20px 0;
+    margin-top: -40px;
+}
+
+.ph-2{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/f016346e8c8e71ae1ad6731d95943a86/sneki-cartoon-series-1920x700-desktop-cat-banner.jpg");
+    background-position: center;
+    font-weight: 300;
+}
+.ph-2 h2{
+    padding: 5px 0;
+}
+.ph-2 p span{
+    padding: 0;
+    color: white;
+    font-size: 18px;
+}
+.ph-3{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/cd2d636f26bd91dd99923c71b9e84a83/complete-your-set-up-1920x700-desktop-cat-banner.jpg");
+    background-position: center;
+}
+.ph-4{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/7f1c1cfe95856e7f342c475281ef34ff/lifestyle-collba.jpg");
+    background-position: center;
+}
+.ph-5{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/a7db96f37bf2014b329d064dae829543/lifestyle-apparel.jpg");
+    background-position: center;
+}
+.ph-6{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/df70fc0371004f9fb85d60a62f905502/lifestyle-bag.jpg");
+    background-position: center;
+}
+.ph-7{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/3a1137ca109d372509c5a129f0e62483/lifestyle-gear.jpg");
+    background-position: center;
+}
+.ph-8{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/2bce7b0e7f5425138cb2daf35ff9fa7a/razer-cloth-mask-v2-desktop-cat-banner.jpg");
+    background-position: center;
+}
+.ph-9{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/0248d471a2bf516300a5af348fe1655d/lifestyle-sneki-snek.jpg");
+    background-position: center;
+}
+.ph-10{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/3bb1bbc90757131821e400fa6ada15dd/lifestyle-respawn.jpg");
+    background-position: center;
+}
+
+                                                    /* Footer start */
+.Footer{
+    width: 100%;
+    height: 350px;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part{
+    display: inline-block;
+    width: 238.8px;
+    /* border: 1px solid red; */
+    height: 270px;
+    padding: 0 12px;
+}
+.right{
+    text-align: end;
+}
+.part div h5 span{
+    /* border: 1px solid red; */
+    font-size: 14.4px;
+}
+.part div h5{
+    color: #44d62c;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: -1px;
+}
+.row ul li{
+    padding-bottom: 15px;
+    list-style: none;
+}
+.row ul label{
+    color: white;
+}
+.row ul li a{
+    text-decoration: none;
+    color: #999;
+}
+.part div ul li:first-child{
+    margin-top: 20px;
+}
+.part div:first-child{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid orangered; */
+}
+.part ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.link{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* border: 1px solid #44d62c; */
+    display: inline-block;
+    margin-top: 10px;
+}
+.facebook{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0001-facebook.svg");
+    background-size: cover;
+    background-position: center;
+}
+.instagram{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0003-instagram.svg");
+    background-size: cover;
+    background-position: center;
+}
+.twitter{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0005-twitter.svg");
+    background-size: cover;
+    background-position: center;
+}
+.bb{
+    width: 98%;
+    border-top: 1px solid #555;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+.bbl{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.bbr{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.copy-in span{
+    color: #999;
+}
+.copy{
+    width: 287.84px;
+    display: flex;
+    justify-content: start;
+}
+.bbl ul{
+    display: flex;
+}
+.bbl ul li{
+    padding: 0 7.5px;
+    list-style: none;
+    color: #999;
+}
+.bbl ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.bbl ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.bbr{
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+.bbrr{
+    display: flex;
+}
+.bbrr div, .bbrr span, .bbrr a{
+    padding: 0 7.5px;
+}
+.bbrr a{
+    text-decoration: none;
+    color: #999;
+}
+.bbrr a:hover{
+    text-decoration: underline;
+    color: white;
+}

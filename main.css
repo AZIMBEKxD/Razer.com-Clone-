@@ -1,0 +1,458 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Roboto', sans-serif; */
+.navbar{
+    width: 100%;
+    height: 3.75rem;
+    border-bottom: 1px solid #44d62c;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    margin-top: -3.75rem;
+}
+.navbar ul img{
+    width: 35px;
+    height: 35.16px;
+    margin-top: 30px;
+    /* margin-left: 55px; */
+    position: absolute;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 35px;
+    list-style: none;
+    font-size: 16px;
+}
+.navbar ul li a{
+    color: #888;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: white;
+    cursor: pointer;
+}
+.navline{
+    width: 100%;
+    height: 44px;
+    /* border: 1px solid red; */
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;  
+    z-index: 1;
+    /* margin-top: 3.75rem; */
+}
+.navline p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.navline p a{
+    text-decoration: none;
+    color: white;
+}
+.navline p a:hover{
+    text-decoration: underline;
+}
+                                                    /* navbar stop  */
+                                                    /* sign-up start */
+.sign-up-page{
+    width: 100%;
+    height: 730px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url("https://assets2.razerzone.com/images/pnx.assets/d24672112ff237ece31fd792eb39dba6/deathstalkerpro-homepage-large-2x.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    margin-top: 3.75rem;
+}
+
+.sign-up-page h1{
+    font-size: 3.55rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+    letter-spacing: -2px;
+    font-weight: 300;
+}
+.sign-up-page p{
+    font-size: 1.75rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+.sign-up-page h2{
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+.sign-up-page a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    transition: .3s;
+}
+.sign-up-page a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sign-up-page  span{
+    color: #44d62c;
+    margin-left: 5px;
+}
+.sign-up-page div{
+    margin-top: -400px;
+}
+                                                    /* sign-up stop */
+                                                    /* content start  */
+.main-content{
+    padding: 10px 0 0 0;
+    background-color: #222;
+}
+.content{
+    width: 100%;
+    height: 700px;
+    background: url("https://assets2.razerzone.com/images/pnx.assets/c5265eafd9b373c51838e6a162ffda79/razer-blade14-quartz-2022-homepage-desktop2x.jpg");
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-top: 75px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.content h1{
+    font-size: 3.55rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.w1{
+    font-size:1.75rem;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    /* word-spacing: -10px; */
+    font-weight: 500;
+}
+.w2{
+    font-size: 21px;
+    /* font-family: sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+    display: inline-block;
+    font-weight: 500;
+    padding: 0 20px;
+}
+.w2 a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+.w2 a:hover{
+    text-decoration: underline;
+}
+.w2 span{
+    color: #44d62c;
+    font-size: 15px;
+}
+                                                    /* content stop */
+                                                    /* main-page start  */
+.main-page{
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    padding-top: 10px;
+}
+.gaming-page{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    background: url("https://assets2.razerzone.com/images/pnx.assets/d24672112ff237ece31fd792eb39dba6/back-to-school-aug22-homepage-desktop2x.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0 0 10px 0;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+.gaming-page h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    /* padding-bottom: 10px; */
+    letter-spacing: -1px;
+}
+.lr{
+    width: 50%;
+    height: 580px;
+    /* border: 1px solid white; */
+    background-color: #222;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+.lr h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+.left1, .left2, .left3{
+    float: left;
+    padding: 0 5px 10px 0;
+}
+.right1, .right2, .right3{
+    float: right;
+    padding: 0 0 10px 5px;
+}
+.rl{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+.clear{
+    clear: both;
+}
+.l1{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/775b8527dbfc2fd1f50d93c63e7bfbb3/enkipro-b-950x580-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.r1{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/31a38664ab12f98afc875824ad783084/new-razer-blade-15-2022-b-950x580-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.l2{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razerstore-rewards-raptor27-b-950x580-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.r2{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/bape-b-950x580-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.l3{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/775b8527dbfc2fd1f50d93c63e7bfbb3/rzr-chairs-b-950x580-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.r3{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/8f4d7ccfa1259a34ba4741c16495b359/qcsps5-950x580-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.w3{
+    font-size: 1.313rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin: 12px 0 0px 0;
+}
+.w4{
+    font-size: 1.0625rem;
+    font-family: monospace;
+    display: inline-block;
+    padding: 0 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+.w4 a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+.w4 a:hover{
+    text-decoration: underline;
+}
+.w4 span{
+    color: #44d62c;
+    font-size: 15px;
+}
+
+.yellow{
+    width: 15%;
+    height: 34px;
+    border: 1px solid #ff9c07;
+    margin-left: 42.5%;
+    background-color: #ff9c07;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.yellow span{
+
+    font-size: 0.6rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.y-text{
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+}
+
+                                                    /* main-page stop  */
+                                                    /* Footer start */
+.Footer{
+    width: 100%;
+    height: 350px;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part{
+    display: inline-block;
+    width: 238.8px;
+    /* border: 1px solid red; */
+    height: 270px;
+    padding: 0 12px;
+}
+.right{
+    text-align: end;
+}
+.part div h5 span{
+    /* border: 1px solid red; */
+    font-size: 14.4px;
+}
+.part div h5{
+    color: #44d62c;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: -1px;
+}
+.row ul li{
+    padding-bottom: 15px;
+    list-style: none;
+}
+.row ul label{
+    color: white;
+}
+.row ul li a{
+    text-decoration: none;
+    color: #999;
+}
+.part div ul li:first-child{
+    margin-top: 20px;
+}
+.part div:first-child{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid orangered; */
+}
+.part ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.link{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* border: 1px solid #44d62c; */
+    display: inline-block;
+    margin-top: 10px;
+}
+.facebook{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0001-facebook.svg");
+    background-size: cover;
+    background-position: center;
+}
+.instagram{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0003-instagram.svg");
+    background-size: cover;
+    background-position: center;
+}
+.twitter{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0005-twitter.svg");
+    background-size: cover;
+    background-position: center;
+}
+.bb{
+    width: 98%;
+    border-top: 1px solid #555;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+.bbl{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.bbr{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.copy-in span{
+    color: #999;
+}
+.copy{
+    width: 287.84px;
+    display: flex;
+    justify-content: start;
+}
+.bbl ul{
+    display: flex;
+}
+.bbl ul li{
+    padding: 0 7.5px;
+    list-style: none;
+    color: #999;
+}
+.bbl ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.bbl ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.bbr{
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+.bbrr{
+    display: flex;
+}
+.bbrr div, .bbrr span, .bbrr a{
+    padding: 0 7.5px;
+}
+.bbrr a{
+    text-decoration: none;
+    color: #999;
+}
+.bbrr a:hover{
+    text-decoration: underline;
+    color: white;
+}

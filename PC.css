@@ -1,0 +1,568 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 3.75rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    /* margin-top: -3.75rem; */
+}
+.navbar ul img{
+    width: 35px;
+    height: 35.16px;
+    margin-top: 30px;
+    /* margin-left: 55px; */
+    position: absolute;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 35px;
+    list-style: none;
+    font-size: 16px;
+}
+.navbar ul li a{
+    color: #888;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: white;
+    cursor: pointer;
+}
+.navline{
+    width: 100%;
+    height: 44px;
+    /* border: 1px solid red; */
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;  
+    z-index: 1;
+    margin-top: 115px
+}
+.navline p{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    /* padding-bottom: 5px; */
+}
+.menu{
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #44d62c;
+    background-color: #1a1a1a;
+    margin-top: 3.75rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 25px;
+    list-style: none;
+    font-size: 12px;
+    transition: .3s;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    color: #44d62c;
+}
+                                                    /* navbar stop  */
+                                                    /* text start */
+.text{
+    width: 100%;
+    height: 230px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    background-color: #111;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    /* margin-top: 159px; */
+}
+.correct{
+    height: 159px;
+    width: 100%;
+}
+.text h1{
+    font-size: 36px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #44d62c;
+    padding-bottom: 5px;
+    letter-spacing: -2px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.text p{
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: #999;
+    line-height: 30px;
+}
+                                                    /* text stop */
+                                                    /* content start */
+.content{
+    width: 100%;
+    height: 551px;
+    background-color: #252525;
+    /* position: absolute; */
+    /* margin-top: 389px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containter{
+    position: relative;
+}
+.box-items{
+    display: flex;
+
+}
+.box{
+    width: 381.33px;
+    height: 500.33px;
+    /* border: 1px solid red; */
+    background-color: #111;
+    margin: 0 8px;
+    border-bottom: 1px solid #44d62c;
+}
+.box img{
+    width: 381.33px;
+    height: 381.33px;
+}
+.box div{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5px 10px 0 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.box p{
+    color: #888;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px 10px 25px 10px;
+    font-size: 13px;
+    font-weight: 300px;
+}
+.box a{
+    text-decoration: none;
+    color: #44d62c;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.text2 p{
+    color: #44d62c;
+    font-size: 36px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 0 8px;
+    padding: 0 0 5px;
+}
+.text2{
+    width: 100%;
+    /* margin-top: 940px; */
+    /* position: absolute; */
+    text-align: center;
+    background-color: #111;
+    padding: 48px 8px;
+}
+.text2 span{
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: #999;
+    line-height: 30px;
+}
+.grid{
+    width: 100%;
+    height: 1202px;
+    /* border: 1px solid red; */
+    background-color: #252525;
+}
+.grid-top{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+    /* margin-bottom: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.grid-bottom{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
+.grid-top-left, .grid-top-right{
+    width: 575px;
+    height: 575px;
+    /* border: 1px solid red; */
+    margin: 0 8px;
+    margin-top: 15px;
+}
+.grid-bottom-left, .grid-bottom-right{
+    width: 575px;
+    height: 575px;
+    /* border: 1px solid red; */
+    margin: 0 8px;
+    margin-top: 7.5px;
+}
+.grid-top-left{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/mice-category-558x587-desktop.jpg");
+    background-size: cover;
+    text-align: center;
+    border-bottom: 1px solid #44d62c;
+}
+.grid-top-right{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/mousemats-category-558x587-desktop.jpg");
+    background-size: cover;
+    text-align: center;
+    border-bottom: 1px solid #44d62c;
+}
+.grid-bottom-left{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/keyboards-category-558x587-desktop.jpg");
+    background-size: cover;
+    text-align: center;
+    border-bottom: 1px solid #44d62c;
+}
+.grid-bottom-right{
+    background: url("https://assets2.razerzone.com/images/pnx.assets/cd9237a6f61e604675e80e0c098f5a64/audio-category-558x587-desktop.jpg");
+    background-size: cover;
+    text-align: center;
+    border-bottom: 1px solid #44d62c;
+}
+.grid-top-left div{
+    text-align: center;
+    color: white;
+    padding-top: 65px;
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.grid-top-left p a{
+    color: #44d62c;
+    text-decoration: none;
+    /* position: absolute; */
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    /* top: 125px; */
+    /* z-index: 12; */
+}
+
+.grid-top-right div{
+    text-align: center;
+    color: white;
+    padding-top: 65px;
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.grid-top-right p a{
+    color: #44d62c;
+    text-decoration: none;
+    /* position: absolute; */
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    /* top: 125px; */
+    /* z-index: 12; */
+}
+.grid-bottom-left div{
+    text-align: center;
+    color: white;
+    padding-top: 65px;
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.grid-bottom-left p a{
+    color: #44d62c;
+    text-decoration: none;
+    /* position: absolute; */
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    /* top: 125px; */
+    /* z-index: 12; */
+}
+.grid-bottom-right div{
+    text-align: center;
+    color: white;
+    padding-top: 65px;
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.grid-bottom-right p a{
+    color: #44d62c;
+    text-decoration: none;
+    /* position: absolute; */
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    /* top: 125px; */
+    /* z-index: 12; */
+}
+
+.produce{
+    width: 100%;
+    height: 700px;
+    background: url("https://assets2.razerzone.com/images/pnx.assets/cd2d636f26bd91dd99923c71b9e84a83/complete-your-set-up-1920x700-desktop-cat-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.produce h2{
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    padding-top: 65px;
+    color: white;
+}
+.produce p{
+    font: 18px;
+    color: #999;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 7px 16px 20px;
+}
+.produce a{
+    text-decoration: none;
+    color: #44d62c;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.border{
+    border-top: #44d62c 1px solid;
+}
+
+.height{
+    height: 100%;
+}
+.items{
+    margin: 7.5px 7.5px;
+    height: 540px;
+}
+.itemt{
+    padding-top: 15px;
+}
+.itemb{
+    padding-bottom: 15px;
+}
+
+.play-time{
+    width: 100%;
+    height: 400px;
+    background: url("https://assets2.razerzone.com/images/pnx.assets/d20a9f320f5d60e2b92043b7d4cc2f7a/ms-audio-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+    display: flex;
+    justify-content: end;
+    padding: 0 130px;
+    align-items: center;
+}
+.any-time h2{
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    color: #44d62c;
+    margin: 16px 0;
+}
+.any-time div{
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #888;
+    font-weight: 300;
+}
+.any-time div div{
+    height: 16px;
+}
+.any-time a img{
+    margin: 16px 0;
+}
+.any-time{
+    text-align: start;
+}
+.any-time span{
+    color: #888;
+    font-size: 12px;
+    font-family: italic ;
+    display: block;
+    margin: 5px 0;
+}
+
+                                                    /* Footer start */
+.Footer{
+    width: 100%;
+    height: 350px;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part{
+    display: inline-block;
+    width: 238.8px;
+    /* border: 1px solid red; */
+    height: 270px;
+    padding: 0 12px;
+}
+.right{
+    text-align: end;
+}
+.part div h5 span{
+    /* border: 1px solid red; */
+    font-size: 14.4px;
+}
+.part div h5{
+    color: #44d62c;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: -1px;
+}
+.row ul li{
+    padding-bottom: 15px;
+    list-style: none;
+}
+.row ul label{
+    color: white;
+}
+.row ul li a{
+    text-decoration: none;
+    color: #999;
+}
+.part div ul li:first-child{
+    margin-top: 20px;
+}
+.part div:first-child{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid orangered; */
+}
+.part ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.link{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* border: 1px solid #44d62c; */
+    display: inline-block;
+    margin-top: 10px;
+}
+.facebook{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0001-facebook.svg");
+    background-size: cover;
+    background-position: center;
+}
+.instagram{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0003-instagram.svg");
+    background-size: cover;
+    background-position: center;
+}
+.twitter{
+    background: url("https://assets2.razerzone.com/images/phoenix/SM0005-twitter.svg");
+    background-size: cover;
+    background-position: center;
+}
+.bb{
+    width: 98%;
+    border-top: 1px solid #555;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+.bbl{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.bbr{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.copy-in span{
+    color: #999;
+}
+.copy{
+    width: 287.84px;
+    display: flex;
+    justify-content: start;
+}
+.bbl ul{
+    display: flex;
+}
+.bbl ul li{
+    padding: 0 7.5px;
+    list-style: none;
+    color: #999;
+}
+.bbl ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.bbl ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.bbr{
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+.bbrr{
+    display: flex;
+}
+.bbrr div, .bbrr span, .bbrr a{
+    padding: 0 7.5px;
+}
+.bbrr a{
+    text-decoration: none;
+    color: #999;
+}
+.bbrr a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#active{
+    color: white;
+}
